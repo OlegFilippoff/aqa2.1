@@ -20,7 +20,7 @@ public class SeleniumTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("WebDriver.chrome.driver", "C:\\tmp\\chromedriver.exe");
+        System.setProperty("WebDriver.chrome.driver", "C:/Gradle/aqa2.1/artifacts/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
     }
 
